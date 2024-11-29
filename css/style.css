@@ -1,0 +1,1170 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0
+}
+
+*,:after,:before {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box
+}
+
+html {
+    font-size: 10px;
+}
+body {
+    background-color: #fff;
+    color: #747474;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    margin: 0 auto !important;
+    box-shadow: 0px 0px 3px 0px rgba(0,0,0,0.5);
+    max-width: 170rem;
+    position: relative;
+}
+a, a img, img {
+    transition: all .2s linear;
+    -moz-transition: all .2s linear;
+    -webkit-transition: all .2s linear;
+}
+abbr, address, article, aside, audio, b, blockquote, body, canvas, caption, cite, code, dd, del, details, dfn, div, dl, dt, em, fieldset, figcaption, figure, footer, form, h1, h2, h3, h4, h5, h6, header, hgroup, html, i, iframe, img, ins, kbd, label, legend, li, mark, menu, nav, object, ol, p, pre, q, samp, section, small, span, strong, sub, summary, sup, table, tbody, td, tfoot, th, thead, time, tr, ul, var, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    background: 0 0;
+}
+ul  {
+    list-style: none;
+    padding-left: 0
+}
+.container {
+    max-width: 110rem;
+    margin: 0 auto;
+    padding: 0 2rem;
+}
+.flex {
+    display: flex;
+    flex-wrap: wrap;
+}
+.alignCenter {
+    align-items: center;
+}
+.spaceBetween {
+    justify-content: space-between;
+}
+.alignEnd {
+    align-items: flex-end;
+}
+.logowrapper .logo img {
+    width: 18rem;
+}
+.heightfull {
+    height: 100%;
+}
+.primaryColor {
+    color: #f17e21;
+}
+.secondaryColor {
+  color: #000;  
+}
+.primaryBG {
+    background: #0B262A;
+}
+h1 {
+    font-size: 4.2rem;
+    font-weight: bold;
+    line-height: 1.2;
+    text-shadow: 0px 0px 4px rgba(0,0,0,0.25);
+}
+h1 span {
+    font-weight: normal;
+}
+.graybg {
+    background-color: #eff0ec;
+}
+.pdequalsec {
+    padding: 7rem 0;
+}
+.mgB52 {
+    margin-bottom: 52px;
+}
+h2 {
+    font-size: 3.2rem;
+    color: #000;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: -1px;  
+    line-height: 1.2;
+}
+h3 {
+    color: #000;
+    font-size: 6rem;
+    font-weight: 100;
+    line-height: 1.2;
+    letter-spacing: -1.273px;
+    /*text-shadow: 0px 0px 40px rgba(0,0,0,0.25)*/
+}
+h4 {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #000;
+}
+.col-10 {
+    width: 10%;
+}
+.col-15 {
+    width: 15%;
+}
+.col-25 {
+    width: 25%;
+}
+.col-65 {
+    width: 65%;
+}
+.col-2 {
+    width: 20%;
+}
+.col-3 {
+    width: 30%;
+}
+.col-4 {
+    width: 40%;
+}
+.col-5 {
+    width: 50%;
+}
+.col-6 {
+    width: 60%;
+}
+.col-7 {
+    width: 70%;
+}
+.mb30 {margin-bottom: 3rem;}
+.whiteText {
+    color: #fff;
+}
+strong {
+    font-weight:700;
+}
+.bgProperty {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+p {
+    color: #000;
+    font-size: 1.6rem;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: -0.38px;
+}
+.footer {
+    padding: 20px 0;
+}
+.footer p {
+    font-size: 1.6rem
+}
+.col-third {
+    width: calc(100% / 3);
+}
+.textCenter {
+    text-align: center;
+}
+.btn {background: #f17e21;color: #fff;text-align: center;font-family: 'Poppins';font-size: 1.8rem;font-weight: 400;padding: 1.4rem 2.5rem;display: inline-block;text-decoration: none;margin-top: 1rem;cursor: pointer;}
+.btn:hover {
+    background: #000;
+}
+.poR {
+    position: relative;
+}
+.pd60 {
+    padding: 60px 0;
+}
+.col-67 {
+    width: 65%;
+}
+.col-35 {
+    width: 35%;
+}
+.col-45 {
+    width: 45%;
+}
+.HeadingBox {
+    max-width: 70rem;
+    margin: 0 auto;
+    margin-bottom: 2.5rem;
+}
+.HeadingBox p {
+    color: #406065;
+    font-weight: 300;
+    margin: 1rem;
+}
+.row {
+    display: flex;flex-wrap: wrap;
+}
+header.siteheader {
+    padding: 0;
+}
+ul.navbar-nav {
+    display: flex;
+    justify-content: end;
+    align-items: c;
+    align-items: center;
+}
+.menuwrap .nav {
+    text-align: right;
+}
+ul.navbar-nav li a {
+    color: #333;
+    text-decoration: none;
+    font-size: 1.2rem;
+    padding: 0 1rem;
+    font-weight: 600;
+}
+.siteheader .row {
+    align-items: center;
+}
+ul.navbar-nav li a.btn {
+    color: #fff;
+    margin: 0;
+    padding: 2.8rem 1.5rem;
+}
+ul.navbar-nav li a:hover {
+    color: #f17e21;
+}
+.mainbannersection {
+    height: 44rem;
+    position: relative;
+}
+.mainbannersection .bannerimg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+.mainbannersection .bannerimg:before {
+    position: absolute;
+    width: 100%;
+    content: "";
+    background: #000;
+    top: 0;
+    z-index: 1;
+    height: 100%;
+    opacity: 0.5;
+}
+.mainbannersection  .bannerslider h3 {
+    color: #fff;
+    font-size: 3.4rem;
+    font-weight: 600;
+}
+.mainbannersection .container {
+    position: relative;
+    z-index: 1;
+    height: 100%;
+}
+.mainbannersection .row {
+    height: 100%;
+    align-items: center;
+}
+.mainbannersection .bannerslider ul.slick-dots li button {
+    padding: 0;
+    width: 8px;
+    height: 8px;
+    background: #fff;
+}
+.mainbannersection .bannerslider ul.slick-dots li button:before {
+    display: none;
+}
+.mainbannersection .bannerslider ul.slick-dots li {
+    width: 8px;
+}
+.mainbannersection .bannerslider ul.slick-dots li.slick-active button {
+    background: #f17e21;
+}
+img {
+    max-width: 100%;
+}
+.justify-between {
+    justify-content: space-between;
+}
+h6.small {
+    color: #000;
+}
+
+.contentwrapper h2 {
+    margin: 2rem 0 1rem;
+    font-weight: 600;
+}
+
+.contentwrapper p {
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+    line-height: 1.6;
+}
+.contentwrapper marquee {
+    margin: 1rem 0 2rem;
+    font-weight: 600;
+    color: #f17e21;
+}
+.aboutsection .row {
+    align-items: center;
+}
+.headingBox h2 {
+    margin-bottom: 1rem;
+}
+.delhifirstibsection .row {
+    padding-top: 4rem;
+}
+
+.delhifirstibsection .row .image {
+    height: 20rem;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    overflow: hidden;
+}
+
+.delhifirstibsection .row .image img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.delhifirstibsection .row 
+ .colinnr {
+    box-shadow: 0px 25px 50px rgba(0, 0, 0, 0.07);
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    overflow: hidden;
+}
+
+.delhifirstibsection .row .colinnr .content {
+    background: #fff;
+    padding: 0 2rem 2rem;
+    height: 17rem;
+}
+
+.delhifirstibsection  .col-third {
+    padding: 0 1rem;
+}
+
+.delhifirstibsection .row .colinnr .innr img {
+    width: 14rem;
+    margin-top: -2rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+.delhifirstibsection .row .colinnr .innr {
+    text-align: center;
+}
+.delhifirstibsection .row .colinnr .innr h4 {
+    font-size: 1.4rem;
+    margin: 1rem;
+}
+.awardrankingslider .enrollsearchbox p {
+    font-size: 1.4rem;
+}
+.awardrankingslider .enrollsearchbox h2 {
+    font-size: 1.2rem;
+    margin-top: 0.5rem;
+    font-weight: 600;
+}
+.delhifirstibsection .row .colinnr .innr p {
+    font-size: 1.2rem;
+    line-height: 1.4;
+}
+.awardrankingslider .enrollsearchcol {
+    padding: 5rem 2rem;
+}
+.awardrankingslider .enrollsearchbox {
+    background: #FFFFFF;
+    box-shadow: 0px 20px 50px rgba(0, 0, 0, 0.05);
+    padding: 2rem 2rem;
+    border-bottom-left-radius: 40px;
+    border-top-right-radius: 40px;height: 20rem;
+}
+.awardrankingslider .enrollsearchbox .enrollicon {
+    margin-bottom: 20px;
+}
+.awardrankingslider ul.slick-dots li button {
+    padding: 0;
+    width: 15px;
+    height: 15px;
+    background: #eff0ec;
+}
+.awardrankingslider ul.slick-dots li button:before {
+    display: none;
+}
+.awardrankingslider ul.slick-dots li {
+    width: 15px;
+}
+.awardrankingslider ul.slick-dots li.slick-active button {
+    background: #f17e21;
+}
+.testimonialslider ul.slick-dots li button {
+    padding: 0;
+    width: 15px;
+    height: 15px;
+    background: #eff0ec;
+}
+.testimonialslider ul.slick-dots li button:before {
+    display: none;
+}
+.testimonialslider ul.slick-dots li {
+    width: 15px;
+}
+.testimonialslider ul.slick-dots li.slick-active button {
+    background: #f17e21;
+}
+.artfacilitiesection {
+    padding-bottom: 5rem;
+}
+.artfacilitiesection .col-third {
+    padding: 1rem;
+}
+
+.artfacilitiesection .col-third .thirdinnr {
+    height: 30rem;
+    border-radius: 20px;
+    overflow: hidden;
+    position: relative;
+}
+
+.artfacilitiesection .col-third .thirdinnr .bgimage {
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: flex-end;
+    background-size: cover;
+    padding: 2rem;
+    overflow: hidden;
+}
+.artfacilitiesection .col-third .thirdinnr .bgimage .cntnt {
+    position: absolute;
+    bottom: -80px;
+    z-index: 2;
+    transition: 0.5s all;
+    width: 100%;
+    left: 0;
+    padding: 2rem;
+}
+.artfacilitiesection .col-third .thirdinnr .bgimage .cntnt p {
+    opacity: 0;
+    color: #fff;
+    font-size: 1.2rem;min-height: 6rem;
+}
+.artfacilitiesection .col-third .thirdinnr .bgimage:after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to bottom, transparent 60%, #000 100%);
+    z-index: 0;
+}
+.artfacilitiesection .col-third .thirdinnr .bgimage .cntnt h4 {
+    color: #fff;
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
+.artfacilitiesection .col-third .thirdinnr .bgimage:hover .cntnt p {
+    opacity: 1;
+}
+.artfacilitiesection .col-third .thirdinnr .bgimage:hover .cntnt {
+    bottom: 0;
+}
+.keyhighlightsec .keyhighlightrow {
+    padding-top: 4rem;
+}
+.keyhighlightrow ul li .liicon {
+    background: rgb(201 105 28 / 25%);
+    width: 6rem;
+    height: 5rem;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 1rem;
+}
+
+.keyhighlightrow ul li .linnr {
+    display: flex;
+    align-items: center;
+    margin: 2rem;
+}
+
+.keyhighlightrow ul li .linnr img {
+    filter: brightness(1) invert(1);
+    width: 3.5rem;
+}
+
+.keyhighlightrow ul li .licontent h6 {
+    color: #333;
+    font-family: 'Plus Jakarta Sans';
+    font-size: 1.1rem;
+    font-weight: 600;
+}
+
+.keyhighlightrow ul li .licontent {
+    width: 100%;
+}
+
+.keyhighlightrow .img img {
+    width: 70%;
+    margin: 0 auto;
+}
+
+.keyhighlightrow {
+    align-items: center;
+}
+
+.keyhighlightrow .img {
+    text-align: center;
+}
+.worldclassamenities .row .colinnr .innr img {
+    background: #fff;
+    padding: 0;
+    border-radius: 100px;
+    width: 6rem;
+    height: 6rem;
+    margin-top: -53px;
+}
+.worldclassamenities .row .colinnr .content {
+    height: auto;
+    padding-bottom: 3rem;
+}
+.headingBox p {
+    font-size: 1.3rem;
+    max-width: 60rem;
+    margin: 0 auto;
+}
+.worldclassamenities .col-third {
+    margin-bottom: 2rem;
+}
+.faq-section {
+    padding: 2rem 1rem;
+    background-color: #f9f9f9;
+}
+
+.section-title {
+    text-align: center;
+    margin-bottom: 1.5rem;
+    font-size: 2rem;
+    color: #333;
+}
+
+.faq-container {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.faq-item {
+    margin-bottom: 1rem;
+}
+
+.faq-question {
+    width: 100%;
+    text-align: left;
+    background: #fff;
+    border: 1px solid #ddd;
+    padding: 1rem;
+    font-size: 1rem;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.faq-question:hover {
+    background-color: #f0f0f0;
+}
+
+.faq-answer {
+    display: none;
+    padding: 1rem;
+    border: 1px solid #ddd;
+    border-top: none;
+    background-color: #fff;
+}
+.ourtestimonialsec {
+    position: relative;
+}
+.ourtestimonialsec::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #000;
+    opacity: 0.75;
+}
+.ourtestimonialsec .row {
+    position: relative; z-index: 1;justify-content: space-between;
+}
+.ourtestimonialsec .col-5 {
+    width: 45%;
+}
+.ourtestimonialsec .headingBox h4 {
+    margin-bottom: 2rem;
+    color: #fff;font-size: 3rem;;
+}
+
+.ourtestimonialsec button.faq-question {
+    background: transparent !important;
+    border: none;
+    color: #fff;
+    position: relative;
+    font-family: 'Plus Jakarta Sans';
+    font-weight: 500;
+    padding: 1rem 0;
+    border-bottom: 1px solid #fff;
+    font-size: 1.3rem;
+}
+.ourtestimonialsec .faq-item {margin-bottom: 0px !important;}
+.ourtestimonialsec button.faq-question:after {
+    position: absolute;
+    content: "+";
+    right: 1rem;
+    font-size: 1.5rem;
+    top: 0.5rem;
+}
+.ourtestimonialsec button.faq-question.active:after {
+    content: "";
+    content: "-";
+}
+.testimonialslideinnnr p {
+    position: relative;
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+    color: #fff;
+    line-height: 1.6;
+}
+.testimonialslideinnnr h6 {
+    color: #fff;
+    font-size: 1.2rem;
+}
+.testimonialslideinnnr h6 strong {
+    color: #f17e21;
+}
+.testimonialslideinnnr {
+    margin-bottom: 30px;
+    padding-left: 2rem;
+    position: relative;
+}
+.testimonialslideinnnr:before {
+    content: '"';
+    font-size: 5rem;
+    position: absolute;
+    left: 0;
+    top: 0;
+    line-height: 4rem;
+    z-index: 1;
+}
+.faq-answer {
+    background: transparent;
+    border: none;
+    padding-left: 0;
+    padding-top: 2rem;
+}
+.faq-answer h3 {
+    color: #f07e21;
+    font-size: 1.5rem;
+    font-weight: 500;
+    letter-spacing: 0.5px;
+    margin-bottom: 1rem;
+}
+.faq-answer ul li {
+    color: #fff;
+    margin-bottom: 0.5rem;
+}
+.faq-answer p {
+    color: #fff;
+    font-size: 1.1rem;
+    line-height: 1.4;
+}
+.libox {
+    text-align: center;
+    margin: 20px;
+}
+.counter {
+    font-size: 2rem;
+    font-weight: bold;
+    display: inline-block;
+}
+.num {
+    font-size: 1rem;
+    display: inline-block;
+    margin-left: 5px;
+}
+.title {
+    font-size: 1.2rem;
+    color: #555;
+    margin-top: 10px;
+}
+.apeejaystyaadvantage li {
+    border-right: 1px dashed #fff;
+}
+.apeejaystyaadvantage ul {
+    align-items: center;
+}
+.apeejaystyaadvantage li:last-child {
+    border: none;
+}
+.apeejaystyaadvantage li span.counter {
+    color: #fff;
+    font-size: 2.6rem;
+}
+.apeejaystyaadvantage li 
+ h6.title {
+    font-size: 1.4rem;
+    color: #fff;text-transform: uppercase;font-weight: 400;
+}
+.apeejaystyaadvantage .libox {
+    margin: 0;
+    padding: 3rem 1.5rem;
+}
+.apeejaystyaadvantage ul li {
+    width: calc(100% /5);
+}
+.sitefooter {
+    background: #25253f;
+    padding-top: 60px;
+    position: relative;
+    z-index: 99;
+}
+.sitefooter .subscribenewsletter {
+    display: flex;
+    justify-content: space-between;
+    -moz-justify-content: space-between;
+    padding-bottom: 50px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+.sitefooter .subscribenewsletter .newletterheading h3 {
+    color: #fff;
+    margin-bottom: 10px;
+}
+.sitefooter .subscribenewsletter .newletterheading p {
+    color: #cbcbcb;
+    letter-spacing: -0.03em;
+}
+.sitefooter .subscribenewsletter .newletterheading p {
+    color: #cbcbcb;
+    letter-spacing: -0.03em;
+}
+.sitefooter .subscribenewsletter .newlettersubscribe .newlettersubscribeform {
+    position: relative;
+}
+.sitefooter .subscribenewsletter .newlettersubscribe .newlettersubscribeform .mailicon {
+    position: absolute;
+    top: 23px;
+    left: 20px;
+}
+.sitefooter .subscribenewsletter .newlettersubscribe .newlettersubscribeform input {
+    width: 100%;
+    padding: 20px 40px 20px 50px;
+    border: none;
+    border-radius: 5px;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 1.4;
+    letter-spacing: 0px;
+}
+.sitefooter .subscribenewsletter .newlettersubscribe .newlettersubscribeform button {
+    position: absolute;
+    top: 18px;
+    right: 14px;
+    border: none;
+    background: transparent;
+    cursor: pointer;
+}
+.sitefooter .footerrowwidget {
+    padding: 60px 0;
+}
+.sec-row {
+    margin-left: -15px;
+    margin-right: -15px;
+}
+.sitefooter .footerrowwidget .sec-row .seccol {
+    border-right: 1px solid rgba(255, 255, 255, 0.1);
+}
+.sitefooter .footerrowwidget .footercompanydescription p {
+    letter-spacing: -0.04em;
+    line-height: 1.4;
+    color: #CBCBCB;
+    opacity: 0.9;
+}
+ul.social-list {
+    padding: 0;
+    margin-top: 25px;
+}
+ul.social-list li {
+    margin-right: 20px;
+    list-style: none;
+}
+ul.social-list li img {
+    filter: invert(1);
+    transform: scale(0.8);
+    transition: ease-in-out 0.2s;
+}
+.sitefooter .footerrowwidget .footerwidget {
+    padding: 0px 40px;
+}
+.sitefooter .footerrowwidget .footerheading {
+    margin-bottom: 10px;
+}
+.sitefooter .footerrowwidget .footerheading h6 {
+    letter-spacing: -0.03em;
+    color: #ffffff;
+}
+.sitefooter .footerrowwidget .footermenu ul {
+    list-style: none;
+    position: relative;
+    padding-left: 0px;
+}
+.sitefooter .footerrowwidget .footermenu ul li a {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.4;
+    letter-spacing: -0.04em;
+    color: #cbcbcb;
+    text-decoration: none;
+    padding: 10px 0;
+    display: block;
+    opacity: 0.9;
+}
+.flex-box {
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-wrap: wrap;
+    -moz-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+}
+.col-20 {
+    width: 20%;
+}
+.col-25 {
+    width: 25%;
+}
+.sitefooter .newletterheading h2 {
+    font-size: 2rem;
+    color: #fff;
+}
+.sitefooter .newletterheading p {
+    margin-top: 1rem;
+    font-size: 1.2rem;
+}
+.sitefooter .footercompanydescription .logo img {
+    width: 22rem;
+}
+.sitefooter .footerrowwidget .footercompanydescription p {
+    margin: 1rem 0 1rem;
+    font-size: 1.3rem;
+}
+.sitefooter .footerrowwidget .footerheading h6 {
+    font-size: 1.3rem;
+    margin-bottom: 2rem;
+}
+.copyrightsite {
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+}
+.copyrightsite p {
+    padding: 2rem 0;
+    font-size: 1.2rem;
+    letter-spacing: -0.04em;
+    line-height: 1.4;
+    color: #CBCBCB;
+    opacity: 0.9;
+}
+.sitefooter .footerrowwidget .footercompanydescription p {
+    font-size: 1.2rem;
+    line-height: 1.6;
+}
+.admissionwrap {
+    width: 80%;
+    background: #fff;
+    margin: 0 auto -12rem;
+    padding: 3rem;
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.2);
+}
+
+.admissionwrap h4 {
+    color: #f17e21;
+    font-size: 1.8rem;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 800;
+}
+
+.admissionwrap p {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.admissionwrap .form-group {
+    margin-bottom: 1rem;
+}
+
+.admissionwrap .form-group input.form-control, .admissionwrap .form-group select {
+    padding: 1rem;
+    background: #f1f1f1;
+    width: 100%;
+    font-family: 'Plus Jakarta Sans';
+    font-size: 1rem;
+}
+a.stickybtn {
+    background: #f17e21;
+    font-size: 1.2rem;
+    font-family: 'Plus Jakarta Sans';
+    color: #fff;
+    width: 10rem;
+    padding: 1rem;
+    position: fixed;
+    left: -4rem;
+    top: 50%;
+    z-index: 9;
+    text-align: center;
+    text-decoration: none;
+    transform: rotate(-90deg);
+}
+.admissionwrap button.theme-btn {
+    background: #f17e21;
+    font-size: 1.2rem;
+    font-family: 'Plus Jakarta Sans';
+    color: #fff;
+    width: 100%;
+    padding: 1rem;
+}
+.ourtestimonialsec.pdequalsec.bgimage {
+    background-size: cover;
+}
+@media(max-width: 1780px) {
+    html {
+        font-size: 90%;
+    }
+    .awardrankingslider .enrollsearchbox {
+        height: 24rem;
+    }
+}
+@media(max-width: 1600px) {
+    html {
+        font-size: 84%;
+    }
+}
+@media(max-width: 1480px) {
+    html {
+        font-size: 74%;
+    }
+}
+@media(max-width: 1380px) {
+    html {
+        font-size: 70%;
+    }
+    .awardrankingslider .enrollsearchbox {
+        height: 26rem;
+    }
+}
+@media(max-width: 1025px) {
+    html {
+        font-size: 50%;
+    }
+    .awardrankingslider .enrollsearchbox {
+        height: 26rem;
+    }
+    .enrollicon img {
+        width: 12rem;
+    }
+    .artfacilitiesection .col-third {
+        width: 50%;
+    }    
+    .artfacilitiesection .col-third .thirdinnr .bgimage .cntnt {
+        bottom: -44px;
+    }    
+    .artfacilitiesection .col-third:last-child {
+        width: 100% !important;
+    }
+}
+
+@media(max-width: 800px) {
+    html {
+        font-size: 80%;
+    }
+    .menuwrapper {
+        display: none;
+    }
+    .humburgur {
+        display: inline-block !important;background-color: transparent;padding: 0px !important;float: right;
+    }
+    .siteheader .col-3 {
+        width: 70%;
+    }
+    
+    .siteheader .col-7 {
+        width: 30%;
+    }
+    
+    header.siteheader {
+        padding: 3rem 0;
+    }
+    
+    .mainbannersection {
+        height: auto;
+        padding: 3rem 0;
+    }
+    
+    .mainbannersection .bannerimg {
+        background-size: cover;
+        background-position: top left;
+    }
+    
+    .mainbannersection .col-5, .mainbannersection .col-4 {
+        width: 100%;
+    }
+    
+    .bannerslider {
+        text-align: center;
+        padding: 4rem 0;
+    }
+    
+    .admissionwrap {
+        margin-top: 5rem;
+    }
+    
+    .aboutsection .col-4, .aboutsection .col-5 {
+        width: 100%;
+    }
+    
+    .aboutsection .row {
+        flex-direction: column-reverse;
+    }
+    
+    .aboutsection .contentwrapper {
+        margin-top: 7rem;
+    }
+    
+    .aboutsection img {
+        margin-top: 4rem;
+    }
+    
+    .delhifirstibsection .col-third {
+        width: 50%;
+        margin-bottom: 3rem;
+    }
+    
+    .delhifirstibsection .row {
+        justify-content: center;
+    }
+    
+    .keyhighlightrow .col-third {
+        width: 100%;
+    }
+    
+    .ourtestimonialsec .col-5 {
+        width: 100%;
+    }
+    
+    .testimonialslider {margin-bottom: 8rem;}
+    
+    .apeejaystyaadvantage ul li {
+        width: calc(100% /2);
+    }
+    
+    .footerrowwidget .seccol {
+        width: 100%;
+        border-right: none !important;
+        border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+        padding-bottom: 2rem;
+        margin-bottom: 2rem;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    
+    .sitefooter .footerrowwidget .footerwidget {
+        padding: 0;
+    }
+    
+    .footerrowwidget .seccol:last-child {
+        border: none;
+        padding-bottom: 0;
+        margin-bottom: 0;
+    }
+    
+    .newletterheading {
+        width: 100%;
+        margin-bottom: 2rem;
+    }
+    .faqsec {
+        padding-top: 5rem;
+    }
+    .subscribenewsletter {
+        flex-wrap: wrap;
+    }
+    header.siteheader {
+        padding: 1rem 0;
+    }
+    .menuwrapper {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: #f17e21;
+        z-index: 99;
+    }
+    
+    .menuwrapper .menuwrap {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 100%;
+    }
+    
+    .menuwrapper .menuwrap ul {
+        display: block;
+        text-align: center;
+    }
+    
+    .menuwrapper .menuwrap ul li a {
+        padding: 1rem 0;
+        color: #fff;
+        display: inline-block;
+        font-size: 1.5rem;
+    }
+    .menuwrapper svg.close {
+        float: right;
+        margin-top: 2rem;
+        margin-right: 2rem;
+        position: absolute;display: inline-block;
+        top: 0;
+        right: 0;
+    }
+}
+
+@media(max-width: 500px) {
+    .awardrankingslider .enrollsearchbox {
+        height: auto;
+    }
+    .apeejaystyaadvantage ul li {
+        width: calc(100% / 1);border-right: none;border-bottom: 1px dashed #fff;
+    }
+    .delhifirstibsection .col-third, .artfacilitiesection .col-third {
+        width: 100%;
+    }
+    .mainbannersection .bannerslider h3 {
+        color: #fff;
+        font-size: 2.4rem;
+        font-weight: 600;
+    }
+    a.stickybtn {
+        left: -3.5rem;
+    }
+}
